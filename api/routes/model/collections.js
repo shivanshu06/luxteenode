@@ -24,7 +24,15 @@ const collectionsSchema=new mongoose.Schema({
         type:String,
         required:true,
 
-    }
+    },
+    image1: {
+        type: String,
+        required: true, // You can change this to false if images are optional
+    },
+    image2: {
+        type: String,
+        required: true, // You can change this to false if images are optional
+    },
         
     
 })
