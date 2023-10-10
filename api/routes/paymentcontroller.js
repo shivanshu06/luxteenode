@@ -12,8 +12,8 @@ router.post('/', async (req, res) => {
   try {
     const { amount, currency } = req.body; // Extract order details from the request body
     const razorpay = new Razorpay({
-        key_id:'rzp_test_56DkE8owdqjINk',
-      key_secret:'QVJu2s0LLATMqtkdBUMQVCOs',
+        key_id:razorpayApiKey,
+      key_secret:razorpayApiSecret,
       });
     // Create an order on Razorpay
     const order = await razorpay.orders.create({

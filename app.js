@@ -1,3 +1,4 @@
+
 require('dotenv').config();
 
 const express=require('express')
@@ -8,7 +9,7 @@ const collectionsRoute=require('./api/routes/collections')
 const checkout=require('./api/routes/paymentcontroller')
 const contactus=require('./api/routes/contactus')
 const bodyParsher=require('body-parser')
-// const dotenv = require('dotenv'); 
+
 
 
 

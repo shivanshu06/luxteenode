@@ -5,5 +5,5 @@ const app=require('./app')
 const server=http.createServer(app)
 
 
-server.listen(5000,console.log('appis running'))
+server.listen(5000,console.log('App is running'))
 
